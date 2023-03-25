@@ -1,17 +1,16 @@
 package com.learning.a2zcj.basic.Main;
 
-import com.learning.a2zcj.basic.tasks.PrimeNumber;
+import com.learning.a2zcj.basics.inq.CheckPalindrome;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		PrimeNumber pn=new PrimeNumber();
-		System.out.println(pn.isPrimeNumber(29));
-		System.out.println(pn.isPrimeNumber(9));
-		System.out.println(pn.isPrimeNumber(7));
-		System.out.println(pn.isPrimeNumber(30));
-		
+		CheckPalindrome cp=new CheckPalindrome();
+		System.out.println(cp.isNumberPalindrome(12321));
+		System.out.println(cp.isNumberPalindrome(123432));
+		System.out.println(cp.isStringPalindrome("NITIN"));
+		System.out.println(cp.isStringPalindrome("NIPUN"));
 
 	}
 
